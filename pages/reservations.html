@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SOCIAL MEDIA ICON -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- FAVICON ICON -->
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aleo&family=Thasadith&family=Zen+Loop&display=swap" rel="stylesheet">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- CSS STYLE -->
+    <link rel="stylesheet" href="../css/style.css">
+    <title>GreenBistro</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md nav-colors">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../img/img9.jpeg" alt="Green Bistro logo" width="140" height="50">
+                </a>
+                <div class="justify-content-end">
+                    <button class="navbar-toggler mb-3 nav-toggle-button-color" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon text-light"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav nav-pills nav-fill">
+                            <a class="nav-link text-light font-family-nav" aria-current="page" href="../index.html">Home</a>
+                            <a class="nav-link text-light font-family-nav" href="./aboutUs.html">About Us</a>
+                            <a class="nav-link text-light font-family-nav" href="./menu.html">Menu</a>
+                            <a class="nav-link text-light font-family-nav" href="./contactUs.html">Contact Us</a>
+                            <a class="nav-link text-light font-family-nav active bg-info" href="./reservations.html">Reservations</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section  class="reservation_form_container">
+        <div class="form_reservation_container">
+            <h1>Restaurant Reservation Form</h1>
+            <form class="form_container">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Name:</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" name="name" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                </div>
+
+                <div>
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" class="form-control" id="phone" name="phone" required>
+                </div>
+
+                <div>
+                    <label for="date">Date of Reservation:</label>
+                    <input type="date" class="form-control" id="date" name="date" required>
+                </div>
+
+                <div>
+                    <label for="time">Time of Reservation:</label>
+                    <input type="time" class="form-control" id="time" name="time" required>
+                </div>
+
+                <div>
+                    <label for="guests">Number of Guests:</label>
+                    <select class="form-select" size="1" aria-label="select">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Special Requests/Comments:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+
+                <div class="form_button_container">
+                    <input type="reset" value="Reset" class="form_button">
+                    <input type="submit" value="Submit" class="form_button">
+                </div>
+            </form>
+        </div>
+        <div class="photo_reservations_page">
+            <img src="../img/img10.jpeg" alt="restaurant's lounge">
+        </div>
+    </section>
+    <footer>
+        <div class="footer_socials">
+            <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="http://www.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>  
+        </div>
+        <div class="footer_text">
+            <p>Phone: 555-555-5555</p>
+            <p>Email: info@greenbistro.com</p>
+            <p>Address: 123 Main St, City, State ZIP</p>
+        </div>
+    </footer>
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
