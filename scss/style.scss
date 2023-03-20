@@ -13,6 +13,12 @@ html {
 
 /* ---- HEADER - NAVBAR ---- */
 
+.navbar {
+    img {
+        width: 10rem;
+        height: 3rem;
+    }
+}
 .nav-colors {
     background-color: #114b5f;
     color: white;
@@ -444,7 +450,7 @@ footer {
     /* ---- INDEX - WELCOME SECTION ---- */
 
     .img_restaurants{
-        height: 30rem;
+        height: 38rem;
     }
 
     /* ---- INDEX - MENU'S DIRECTIONER SECTION ---- */
